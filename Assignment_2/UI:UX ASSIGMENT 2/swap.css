@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.menu .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Swap Section */
+.swap-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Divider */
+.divider {
+    width: 2px;
+    background-color: black;
+    height: 100%;
+}
+
+/* Column Styling */
+.column {
+    width: 40%;
+}
+
+h2 {
+    background-color: #f4e7c3;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Swap Cards */
+.swap-card {
+    background: #dcdcdc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.cancel-btn, .reject-btn {
+    background-color: #3d2b1f;
+    color: white;
+}
+
+.accept-btn {
+    background-color: #5a4031;
+    color: white;
+}
+
+.cancel-btn:hover, .reject-btn:hover {
+    background-color: #6d4c41;
+}
+
+.accept-btn:hover {
+    background-color: #8b6e5c;
+}

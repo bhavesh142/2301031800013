@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background: #ddd;
+    padding: 15px;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* About Container */
+.about-container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}

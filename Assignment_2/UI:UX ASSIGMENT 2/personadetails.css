@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    color: #555;
+}
+
+/* Form Groups */
+.form-group {
+    margin-top: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Experience Input Box */
+.experience-box {
+    display: flex;
+    align-items: center;
+}
+
+.experience-box button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.experience-box input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+/* Location Box */
+.location-box {
+    display: flex;
+    align-items: center;
+}
+
+.location-box button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upload-box {
+    width: 100%;
+    padding: 30px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f0f0f0;
+}
+
+.upload-box span {
+    font-size: 30px;
+}
+
+/* Done Button */
+.done-btn {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.done-btn:hover {
+    background-color: darkgreen;
+}

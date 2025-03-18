@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Message Container */
+.message-container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Header */
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.back-arrow {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-options {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Chat Box */
+.chat-box {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+/* Message Input Box */
+.message-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message-input input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    padding: 5px;
+}
+
+.send-button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
